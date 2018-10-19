@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		489B3D5DD7BA09BF6FB1E198 /* Pods_SeeDoggy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1738A3258D29C93351D2DC6E /* Pods_SeeDoggy.framework */; };
 		61A67EFD21780E4B00D62BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67EFC21780E4B00D62BD3 /* AppDelegate.swift */; };
-		61A67EFF21780E4B00D62BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67EFE21780E4B00D62BD3 /* ViewController.swift */; };
-		61A67F0221780E4B00D62BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F0021780E4B00D62BD3 /* Main.storyboard */; };
+		61A67EFF21780E4B00D62BD3 /* DogBreedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67EFE21780E4B00D62BD3 /* DogBreedListViewController.swift */; };
 		61A67F0421780E4E00D62BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F0321780E4E00D62BD3 /* Assets.xcassets */; };
 		61A67F0721780E4E00D62BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F0521780E4E00D62BD3 /* LaunchScreen.storyboard */; };
+		61A67F0F21780EB900D62BD3 /* DogBreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F0E21780EB900D62BD3 /* DogBreedListView.swift */; };
+		61A67F1121780F2000D62BD3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F1021780F2000D62BD3 /* Configuration.swift */; };
+		61A67F1321780FBE00D62BD3 /* CustomGenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F1221780FBE00D62BD3 /* CustomGenericView.swift */; };
+		61A67F1521780FE800D62BD3 /* DogBreedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F1421780FE800D62BD3 /* DogBreedListCell.swift */; };
+		61A67F172178103300D62BD3 /* CVCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F162178103300D62BD3 /* CVCell+Extension.swift */; };
+		61A67F1C21781FDA00D62BD3 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F1921781FDA00D62BD3 /* Nunito-Regular.ttf */; };
+		61A67F1D21781FDA00D62BD3 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F1A21781FDA00D62BD3 /* Nunito-SemiBold.ttf */; };
+		61A67F1E21781FDA00D62BD3 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A67F1B21781FDA00D62BD3 /* Nunito-Bold.ttf */; };
+		61A67F20217820F400D62BD3 /* DogBreedListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F1F217820F400D62BD3 /* DogBreedListDataSource.swift */; };
+		61A67F222178213000D62BD3 /* DogBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F212178213000D62BD3 /* DogBreed.swift */; };
+		61A67F242178213B00D62BD3 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F232178213B00D62BD3 /* Dog.swift */; };
+		61A67F262178219E00D62BD3 /* DogBreedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F252178219E00D62BD3 /* DogBreedCollection.swift */; };
+		61A67F31217843D900D62BD3 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F30217843D900D62BD3 /* DogViewModel.swift */; };
+		61A67F33217843ED00D62BD3 /* DogBreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F32217843ED00D62BD3 /* DogBreedViewModel.swift */; };
+		61A67F352178440300D62BD3 /* DogBreedCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F342178440300D62BD3 /* DogBreedCollectionViewModel.swift */; };
+		61A67F3821793FC200D62BD3 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F3721793FC200D62BD3 /* Networking.swift */; };
+		61A67F3A2179411000D62BD3 /* NetworkingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F392179411000D62BD3 /* NetworkingConfiguration.swift */; };
+		61A67F3C21796E8700D62BD3 /* DogBreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F3B21796E8700D62BD3 /* DogBreedView.swift */; };
+		61A67F3E21796FA800D62BD3 /* DogBreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F3D21796FA800D62BD3 /* DogBreedViewController.swift */; };
+		61A67F402179713200D62BD3 /* DogListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F3F2179713200D62BD3 /* DogListDataSource.swift */; };
+		61A67F42217972FC00D62BD3 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A67F41217972FC00D62BD3 /* DogCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1738A3258D29C93351D2DC6E /* Pods_SeeDoggy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeDoggy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59016528B36091E7318AE9D0 /* Pods-SeeDoggy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeDoggy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeDoggy/Pods-SeeDoggy.debug.xcconfig"; sourceTree = "<group>"; };
 		61A67EF921780E4B00D62BD3 /* SeeDoggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeDoggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A67EFC21780E4B00D62BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61A67EFE21780E4B00D62BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61A67F0121780E4B00D62BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A67EFE21780E4B00D62BD3 /* DogBreedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListViewController.swift; sourceTree = "<group>"; };
 		61A67F0321780E4E00D62BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A67F0621780E4E00D62BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A67F0821780E4E00D62BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A67F0E21780EB900D62BD3 /* DogBreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListView.swift; sourceTree = "<group>"; };
+		61A67F1021780F2000D62BD3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		61A67F1221780FBE00D62BD3 /* CustomGenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGenericView.swift; sourceTree = "<group>"; };
+		61A67F1421780FE800D62BD3 /* DogBreedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListCell.swift; sourceTree = "<group>"; };
+		61A67F162178103300D62BD3 /* CVCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVCell+Extension.swift"; sourceTree = "<group>"; };
+		61A67F1921781FDA00D62BD3 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		61A67F1A21781FDA00D62BD3 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		61A67F1B21781FDA00D62BD3 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		61A67F1F217820F400D62BD3 /* DogBreedListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListDataSource.swift; sourceTree = "<group>"; };
+		61A67F212178213000D62BD3 /* DogBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreed.swift; sourceTree = "<group>"; };
+		61A67F232178213B00D62BD3 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		61A67F252178219E00D62BD3 /* DogBreedCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedCollection.swift; sourceTree = "<group>"; };
+		61A67F30217843D900D62BD3 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		61A67F32217843ED00D62BD3 /* DogBreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedViewModel.swift; sourceTree = "<group>"; };
+		61A67F342178440300D62BD3 /* DogBreedCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedCollectionViewModel.swift; sourceTree = "<group>"; };
+		61A67F3721793FC200D62BD3 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		61A67F392179411000D62BD3 /* NetworkingConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingConfiguration.swift; sourceTree = "<group>"; };
+		61A67F3B21796E8700D62BD3 /* DogBreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedView.swift; sourceTree = "<group>"; };
+		61A67F3D21796FA800D62BD3 /* DogBreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedViewController.swift; sourceTree = "<group>"; };
+		61A67F3F2179713200D62BD3 /* DogListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListDataSource.swift; sourceTree = "<group>"; };
+		61A67F41217972FC00D62BD3 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		C740962664F369E1B1575655 /* Pods-SeeDoggy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeDoggy.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeDoggy/Pods-SeeDoggy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489B3D5DD7BA09BF6FB1E198 /* Pods_SeeDoggy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010736D7A50037BA572DF8F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1738A3258D29C93351D2DC6E /* Pods_SeeDoggy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		61A67EF021780E4A00D62BD3 = {
 			isa = PBXGroup;
 			children = (
 				61A67EFB21780E4B00D62BD3 /* SeeDoggy */,
 				61A67EFA21780E4B00D62BD3 /* Products */,
+				D17F8E7D3AF308D1F431D7B9 /* Pods */,
+				010736D7A50037BA572DF8F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,107 @@
 		61A67EFB21780E4B00D62BD3 /* SeeDoggy */ = {
 			isa = PBXGroup;
 			children = (
+				61A67F2F2178436200D62BD3 /* Extension */,
+				61A67F2E2178435A00D62BD3 /* Service */,
+				61A67F2D2178435300D62BD3 /* Configuration */,
+				61A67F2C2178434900D62BD3 /* Controller */,
+				61A67F2A2178432000D62BD3 /* View */,
+				61A67F2B2178433B00D62BD3 /* ViewModel */,
+				61A67F292178430F00D62BD3 /* Model */,
+				61A67F182178105F00D62BD3 /* font */,
 				61A67EFC21780E4B00D62BD3 /* AppDelegate.swift */,
-				61A67EFE21780E4B00D62BD3 /* ViewController.swift */,
-				61A67F0021780E4B00D62BD3 /* Main.storyboard */,
 				61A67F0321780E4E00D62BD3 /* Assets.xcassets */,
 				61A67F0521780E4E00D62BD3 /* LaunchScreen.storyboard */,
 				61A67F0821780E4E00D62BD3 /* Info.plist */,
 			);
 			path = SeeDoggy;
+			sourceTree = "<group>";
+		};
+		61A67F182178105F00D62BD3 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F1B21781FDA00D62BD3 /* Nunito-Bold.ttf */,
+				61A67F1921781FDA00D62BD3 /* Nunito-Regular.ttf */,
+				61A67F1A21781FDA00D62BD3 /* Nunito-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		61A67F292178430F00D62BD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F232178213B00D62BD3 /* Dog.swift */,
+				61A67F212178213000D62BD3 /* DogBreed.swift */,
+				61A67F252178219E00D62BD3 /* DogBreedCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61A67F2A2178432000D62BD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F0E21780EB900D62BD3 /* DogBreedListView.swift */,
+				61A67F1221780FBE00D62BD3 /* CustomGenericView.swift */,
+				61A67F1421780FE800D62BD3 /* DogBreedListCell.swift */,
+				61A67F1F217820F400D62BD3 /* DogBreedListDataSource.swift */,
+				61A67F3B21796E8700D62BD3 /* DogBreedView.swift */,
+				61A67F3F2179713200D62BD3 /* DogListDataSource.swift */,
+				61A67F41217972FC00D62BD3 /* DogCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61A67F2B2178433B00D62BD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F30217843D900D62BD3 /* DogViewModel.swift */,
+				61A67F32217843ED00D62BD3 /* DogBreedViewModel.swift */,
+				61A67F342178440300D62BD3 /* DogBreedCollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61A67F2C2178434900D62BD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61A67EFE21780E4B00D62BD3 /* DogBreedListViewController.swift */,
+				61A67F3D21796FA800D62BD3 /* DogBreedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		61A67F2D2178435300D62BD3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F1021780F2000D62BD3 /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		61A67F2E2178435A00D62BD3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F3721793FC200D62BD3 /* Networking.swift */,
+				61A67F392179411000D62BD3 /* NetworkingConfiguration.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		61A67F2F2178436200D62BD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61A67F162178103300D62BD3 /* CVCell+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D17F8E7D3AF308D1F431D7B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59016528B36091E7318AE9D0 /* Pods-SeeDoggy.debug.xcconfig */,
+				C740962664F369E1B1575655 /* Pods-SeeDoggy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61A67F0B21780E4E00D62BD3 /* Build configuration list for PBXNativeTarget "SeeDoggy" */;
 			buildPhases = (
+				657469214F69FBCCB1E7CAED /* [CP] Check Pods Manifest.lock */,
 				61A67EF521780E4B00D62BD3 /* Sources */,
 				61A67EF621780E4B00D62BD3 /* Frameworks */,
 				61A67EF721780E4B00D62BD3 /* Resources */,
+				34BA00058950BBCB8DC23BD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +272,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A67F1D21781FDA00D62BD3 /* Nunito-SemiBold.ttf in Resources */,
+				61A67F1E21781FDA00D62BD3 /* Nunito-Bold.ttf in Resources */,
+				61A67F1C21781FDA00D62BD3 /* Nunito-Regular.ttf in Resources */,
 				61A67F0721780E4E00D62BD3 /* LaunchScreen.storyboard in Resources */,
 				61A67F0421780E4E00D62BD3 /* Assets.xcassets in Resources */,
-				61A67F0221780E4B00D62BD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34BA00058950BBCB8DC23BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeeDoggy/Pods-SeeDoggy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeDoggy/Pods-SeeDoggy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657469214F69FBCCB1E7CAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeDoggy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61A67EF521780E4B00D62BD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A67EFF21780E4B00D62BD3 /* ViewController.swift in Sources */,
+				61A67F1321780FBE00D62BD3 /* CustomGenericView.swift in Sources */,
+				61A67F31217843D900D62BD3 /* DogViewModel.swift in Sources */,
+				61A67F3E21796FA800D62BD3 /* DogBreedViewController.swift in Sources */,
+				61A67F402179713200D62BD3 /* DogListDataSource.swift in Sources */,
+				61A67F3821793FC200D62BD3 /* Networking.swift in Sources */,
+				61A67EFF21780E4B00D62BD3 /* DogBreedListViewController.swift in Sources */,
+				61A67F3C21796E8700D62BD3 /* DogBreedView.swift in Sources */,
+				61A67F3A2179411000D62BD3 /* NetworkingConfiguration.swift in Sources */,
+				61A67F20217820F400D62BD3 /* DogBreedListDataSource.swift in Sources */,
 				61A67EFD21780E4B00D62BD3 /* AppDelegate.swift in Sources */,
+				61A67F1521780FE800D62BD3 /* DogBreedListCell.swift in Sources */,
+				61A67F1121780F2000D62BD3 /* Configuration.swift in Sources */,
+				61A67F222178213000D62BD3 /* DogBreed.swift in Sources */,
+				61A67F262178219E00D62BD3 /* DogBreedCollection.swift in Sources */,
+				61A67F172178103300D62BD3 /* CVCell+Extension.swift in Sources */,
+				61A67F242178213B00D62BD3 /* Dog.swift in Sources */,
+				61A67F352178440300D62BD3 /* DogBreedCollectionViewModel.swift in Sources */,
+				61A67F33217843ED00D62BD3 /* DogBreedViewModel.swift in Sources */,
+				61A67F42217972FC00D62BD3 /* DogCell.swift in Sources */,
+				61A67F0F21780EB900D62BD3 /* DogBreedListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61A67F0021780E4B00D62BD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61A67F0121780E4B00D62BD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61A67F0521780E4E00D62BD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +483,7 @@
 		};
 		61A67F0C21780E4E00D62BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59016528B36091E7318AE9D0 /* Pods-SeeDoggy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +502,7 @@
 		};
 		61A67F0D21780E4E00D62BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C740962664F369E1B1575655 /* Pods-SeeDoggy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

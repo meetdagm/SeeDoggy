@@ -12,10 +12,36 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    private func configureRootVC() -> UIViewController {
+        let breedCollection = DogBreedCollection()
+        let rootNavigationController = UINavigationController(rootViewController: DogBreedListViewController(breedCollection: breedCollection))
+        rootNavigationController.navigationBar.prefersLargeTitles = true
+        rootNavigationController.navigationBar.isTranslucent = false
+        rootNavigationController.navigationBar.barTintColor = kAppLightGrayColor
+        rootNavigationController.navigationBar.tintColor = kAppLightGrayColor
+        rootNavigationController.navigationBar.shadowImage = UIImage()
+        rootNavigationController.navigationItem.largeTitleDisplayMode = .always
+        rootNavigationController.navigationBar.largeTitleTextAttributes = [.foregroundColor: kAppMainTextColor,
+                                                                           .font: kAppBoldFont!]
+        rootNavigationController.navigationBar.titleTextAttributes = [.foregroundColor: kAppMainTextColor,
+                                                                      .font: kAppSemiFont!]
+        
+        return rootNavigationController
+    }
 
+    private func setupWindow() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = configureRootVC()
+        
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Setup window for programmatic UI development
+        setupWindow()
+        
         return true
     }
 
